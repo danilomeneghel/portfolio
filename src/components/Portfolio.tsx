@@ -56,12 +56,12 @@ const Portfolio = () => {
   const categories = ["Todos", "Full-stack", "Back-end", "Mobile"];
   
   return (
-    <section id="portfolio" className="py-20 bg-gray-50">
+    <section id="portfolio" className="py-20 bg-gray-900">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-800 mb-4">Portfólio</h2>
+          <h2 className="text-4xl font-bold text-gray-100 mb-4">Portfólio</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-4"></div>
-          <p className="text-gray-600 max-w-2xl mx-auto">
+          <p className="text-gray-300 max-w-2xl mx-auto">
             Alguns dos projetos desenvolvidos ao longo da minha carreira.
           </p>
         </div>
@@ -69,27 +69,27 @@ const Portfolio = () => {
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project, index) => (
-              <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden card-hover animate-slide-up">
+              <div key={index} className="bg-gray-800 rounded-lg shadow-lg overflow-hidden card-hover animate-slide-up">
                 <div className="h-48 bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
                   <Code size={48} className="text-white" />
                 </div>
                 
                 <div className="p-6">
                   <div className="flex items-center justify-between mb-3">
-                    <span className="px-3 py-1 bg-blue-100 text-blue-700 text-xs rounded-full font-medium">
+                    <span className="px-3 py-1 bg-blue-600 text-blue-100 text-xs rounded-full font-medium">
                       {project.category}
                     </span>
                     <Github size={20} className="text-gray-400 hover:text-primary cursor-pointer transition-colors" />
                   </div>
                   
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">{project.title}</h3>
-                  <p className="text-gray-600 mb-4 leading-relaxed">{project.description}</p>
+                  <h3 className="text-xl font-bold text-gray-100 mb-3">{project.title}</h3>
+                  <p className="text-gray-300 mb-4 leading-relaxed">{project.description}</p>
                   
                   <div className="flex flex-wrap gap-2">
                     {project.technologies.slice(0, 4).map((tech, techIndex) => (
                       <span 
                         key={techIndex}
-                        className="px-2 py-1 bg-gray-100 text-gray-700 text-xs rounded font-medium"
+                        className="px-2 py-1 bg-gray-700 text-gray-300 text-xs rounded font-medium"
                       >
                         {tech}
                       </span>

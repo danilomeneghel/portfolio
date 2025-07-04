@@ -44,12 +44,12 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="py-20 bg-white">
+    <section id="skills" className="py-20 bg-gray-800">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-800 mb-4">Habilidades Técnicas</h2>
+          <h2 className="text-4xl font-bold text-gray-100 mb-4">Habilidades Técnicas</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-4"></div>
-          <p className="text-gray-600 max-w-2xl mx-auto">
+          <p className="text-gray-300 max-w-2xl mx-auto">
             Expertise consolidada em tecnologias enterprise e arquiteturas modernas.
           </p>
         </div>
@@ -58,21 +58,21 @@ const Skills = () => {
           <div className="grid md:grid-cols-2 gap-8">
             {skillCategories.map((category, categoryIndex) => (
               <div key={categoryIndex} className="animate-slide-up">
-                <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
-                  <h3 className="text-xl font-bold text-gray-800 mb-6">{category.title}</h3>
+                <div className="bg-gray-700 p-6 rounded-lg shadow-lg">
+                  <h3 className="text-xl font-bold text-gray-100 mb-6">{category.title}</h3>
                   
                   <div className="space-y-4">
                     {category.skills.map((skill, skillIndex) => (
                       <div key={skillIndex}>
                         <div className="flex justify-between items-center mb-2">
-                          <span className="font-medium text-gray-700">{skill.name}</span>
+                          <span className="font-medium text-gray-200">{skill.name}</span>
                           <div className="flex items-center space-x-2">
-                            <span className="text-sm text-gray-500">{skill.years} anos</span>
+                            <span className="text-sm text-gray-400">{skill.years} anos</span>
                             <span className="text-sm font-semibold text-primary">{skill.level}%</span>
                           </div>
                         </div>
                         
-                        <div className="w-full bg-gray-200 rounded-full h-2">
+                        <div className="w-full bg-gray-600 rounded-full h-2">
                           <div 
                             className="bg-gradient-to-r from-blue-500 to-purple-500 h-2 rounded-full transition-all duration-1000 ease-out"
                             style={{ width: `${skill.level}%` }}

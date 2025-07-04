@@ -44,12 +44,12 @@ const Experience = () => {
   ];
 
   return (
-    <section id="experience" className="py-20 bg-gray-50">
+    <section id="experience" className="py-20 bg-gray-900">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-800 mb-4">Experiência Profissional</h2>
+          <h2 className="text-4xl font-bold text-gray-100 mb-4">Experiência Profissional</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-4"></div>
-          <p className="text-gray-600 max-w-2xl mx-auto">
+          <p className="text-gray-300 max-w-2xl mx-auto">
             Uma trajetória sólida em desenvolvimento Java Enterprise, desde sistemas legados até arquiteturas modernas em cloud.
           </p>
         </div>
@@ -64,28 +64,28 @@ const Experience = () => {
                 index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
               }`}>
                 {/* Timeline dot */}
-                <div className="absolute left-4 md:left-1/2 transform -translate-x-1/2 w-4 h-4 bg-primary rounded-full border-4 border-white shadow-lg z-10"></div>
+                <div className="absolute left-4 md:left-1/2 transform -translate-x-1/2 w-4 h-4 bg-primary rounded-full border-4 border-gray-900 shadow-lg z-10"></div>
                 
                 {/* Content */}
                 <div className={`ml-12 md:ml-0 md:w-1/2 ${
                   index % 2 === 0 ? 'md:pr-12' : 'md:pl-12'
                 }`}>
-                  <div className="bg-white p-6 rounded-lg shadow-lg card-hover animate-slide-up">
+                  <div className="bg-gray-800 p-6 rounded-lg shadow-lg card-hover animate-slide-up">
                     <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-3">
-                      <h3 className="text-xl font-bold text-gray-800">{exp.position}</h3>
+                      <h3 className="text-xl font-bold text-gray-100">{exp.position}</h3>
                       <span className="text-sm text-primary font-medium">{exp.period}</span>
                     </div>
                     
                     <div className="text-lg font-semibold text-primary mb-1">{exp.company}</div>
-                    <div className="text-sm text-gray-500 mb-4">{exp.location}</div>
+                    <div className="text-sm text-gray-400 mb-4">{exp.location}</div>
                     
-                    <p className="text-gray-600 mb-4 leading-relaxed">{exp.description}</p>
+                    <p className="text-gray-300 mb-4 leading-relaxed">{exp.description}</p>
                     
                     <div className="flex flex-wrap gap-2">
                       {exp.technologies.slice(0, 6).map((tech, techIndex) => (
                         <span 
                           key={techIndex}
-                          className="px-3 py-1 bg-blue-100 text-blue-700 text-xs rounded-full font-medium"
+                          className="px-3 py-1 bg-blue-600 text-blue-100 text-xs rounded-full font-medium"
                         >
                           {tech}
                         </span>
