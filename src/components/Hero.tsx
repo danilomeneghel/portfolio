@@ -14,11 +14,11 @@ const Hero = () => {
       <div className="container mx-auto px-6 text-center">
         <div className="animate-fade-in">
 
-          <br /><br />
+          <br /><br /><br />
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
             <span className="text-gradient">Danilo Meneghel</span>
             <br />
-            <span className="text-gray-100">Desenvolvedor Web</span>
+            <span className="text-gray-100">Desenvolvimento Web</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
