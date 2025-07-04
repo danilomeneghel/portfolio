@@ -13,6 +13,8 @@ const Hero = () => {
     <section className="min-h-screen flex items-center justify-center relative bg-gradient-to-br from-gray-900 to-gray-800">
       <div className="container mx-auto px-6 text-center">
         <div className="animate-fade-in">
+
+          <br /><br />
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
             <span className="text-gradient">Danilo Meneghel</span>
             <br />
