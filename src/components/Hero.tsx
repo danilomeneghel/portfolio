@@ -18,9 +18,9 @@ const Hero = () => {
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
             <span className="text-gradient">Danilo Meneghel</span>
           </h1>
-          <h3 className="text-5xl md:text-6xl font-bold mb-6">
-            <span className="text-gray-100">Desenvolvimento Web</span>
-          </h3>
+          <h4 className="text-5xl md:text-6xl font-bold mb-6">
+            <span className="text-gray-100"><Desenvolvimento Web></span>
+          </h4>
           
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
             Especialista Java e API REST com mais de 11 anos de experiência em desenvolvimento de sistemas robustos, 
