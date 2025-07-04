@@ -6,14 +6,12 @@ const Education = () => {
     {
       title: "Sistemas de Informação",
       institution: "Universidade do Sul de Santa Catarina - Unisul",
-      period: "2009 - 2011",
-      status: "Completo"
+      period: "2009 - 2011"
     },
     {
       title: "Ciência da Computação",
       institution: "Universidade de Santa Cruz do Sul - Unisc", 
-      period: "2001 - 2007",
-      status: "Incompleto"
+      period: "2001 - 2007"
     }
   ];
 
@@ -57,16 +55,7 @@ const Education = () => {
                     <div className="flex-1">
                       <h4 className="text-xl font-bold text-gray-100 mb-2">{edu.title}</h4>
                       <p className="text-primary font-medium mb-1">{edu.institution}</p>
-                      <div className="flex justify-between items-center">
-                        <span className="text-gray-300">{edu.period}</span>
-                        <span className={`px-3 py-1 text-xs rounded-full font-medium ${
-                          edu.status === 'Completo' 
-                            ? 'bg-green-600 text-green-100' 
-                            : 'bg-yellow-600 text-yellow-100'
-                        }`}>
-                          {edu.status}
-                        </span>
-                      </div>
+                      <span className="text-gray-300">{edu.period}</span>
                     </div>
                   </div>
                 </div>
