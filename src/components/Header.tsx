@@ -31,10 +31,6 @@ const Header = () => {
     }`}>
       <div className="container mx-auto px-6 py-4">
         <nav className="flex items-center justify-between">
-          <div className="text-2xl font-bold text-gradient">
-            DevPortfolio
-          </div>
-
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">
             {['about', 'experience', 'skills', 'portfolio', 'education'].map((item) => (

@@ -14,13 +14,13 @@ const Hero = () => {
       <div className="container mx-auto px-6 text-center">
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            <span className="text-gradient">Desenvolvedor</span>
+            <span className="text-gradient">Danilo Meneghel</span>
             <br />
-            <span className="text-gray-100">Java Senior</span>
+            <span className="text-gray-100">Desenvolvedor Web</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            Especialista em Java Enterprise com mais de 10 anos de experiência em desenvolvimento de sistemas robustos, 
+            Especialista Java e API REST com mais de 11 anos de experiência em desenvolvimento de sistemas robustos, 
             microserviços e arquiteturas escaláveis.
           </p>
 
