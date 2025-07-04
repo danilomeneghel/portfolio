@@ -10,16 +10,16 @@ const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center relative bg-gradient-to-br from-blue-50 to-indigo-100">
+    <section className="min-h-screen flex items-center justify-center relative bg-gradient-to-br from-gray-900 to-gray-800">
       <div className="container mx-auto px-6 text-center">
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
             <span className="text-gradient">Desenvolvedor</span>
             <br />
-            <span className="text-gray-800">Java Senior</span>
+            <span className="text-gray-100">Java Senior</span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
             Especialista em Java Enterprise com mais de 10 anos de experiência em desenvolvimento de sistemas robustos, 
             microserviços e arquiteturas escaláveis.
           </p>
@@ -40,13 +40,13 @@ const Hero = () => {
           </div>
 
           <div className="flex justify-center space-x-6 mb-12">
-            <a href="#" className="text-gray-600 hover:text-primary transition-colors duration-200">
+            <a href="#" className="text-gray-400 hover:text-primary transition-colors duration-200">
               <Github size={24} />
             </a>
-            <a href="#" className="text-gray-600 hover:text-primary transition-colors duration-200">
+            <a href="#" className="text-gray-400 hover:text-primary transition-colors duration-200">
               <Linkedin size={24} />
             </a>
-            <a href="#" className="text-gray-600 hover:text-primary transition-colors duration-200">
+            <a href="#" className="text-gray-400 hover:text-primary transition-colors duration-200">
               <Mail size={24} />
             </a>
           </div>
