@@ -22,7 +22,7 @@ const Hero = () => {
             <span className="text-gray-100">Desenvolvimento Web</span>
           </h4>
 
-          <br />
+          <br /><br />
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
             Especialista Java e API REST com mais de 11 anos de experiência em desenvolvimento de sistemas robustos, 
             microserviços e arquiteturas escaláveis.
