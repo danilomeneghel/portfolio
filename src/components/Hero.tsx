@@ -19,7 +19,7 @@ const Hero = () => {
             <span className="text-gradient">Danilo Meneghel</span>
           </h1>
           <h4 className="text-5xl md:text-6xl font-bold mb-6">
-            <span className="text-gray-100"><Desenvolvimento Web></span>
+            <span className="text-gray-100">Desenvolvimento Web</span>
           </h4>
           
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
